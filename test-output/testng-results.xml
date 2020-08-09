@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="110131" started-at="2020-08-09T13:46:04Z" finished-at="2020-08-09T13:47:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="110131" started-at="2020-08-09T13:46:04Z" finished-at="2020-08-09T13:47:54Z">
+      <class name="Facebook_With_DataProviderClass.Facebook">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Facebook_With_DataProviderClass.Facebook@c39f790]" name="openBrowser" is-config="true" duration-ms="18761" started-at="2020-08-09T13:46:04Z" finished-at="2020-08-09T13:46:23Z">
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="facebookMethod(java.lang.String, java.lang.String)[pri:0, instance:Facebook_With_DataProviderClass.Facebook@c39f790]" name="facebookMethod" duration-ms="62922" started-at="2020-08-09T13:46:23Z" data-provider="testData" finished-at="2020-08-09T13:47:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9999459457]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nidhinoida@601]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- facebookMethod -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Facebook_With_DataProviderClass.Facebook@c39f790]" name="closeBrowser" is-config="true" duration-ms="28419" started-at="2020-08-09T13:47:26Z" finished-at="2020-08-09T13:47:54Z">
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Facebook_With_DataProviderClass.Facebook -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
